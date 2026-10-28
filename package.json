@@ -1,0 +1,33 @@
+{
+  "name": "ahj-forms",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Popovers на чистом JavaScript",
+  "packageManager": "yarn@4.18.1",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "lint": "eslint .",
+    "test": "jest --runInBand"
+  },
+  "engines": {
+    "node": ">=24.11.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.29.7",
+    "@babel/preset-env": "7.29.7",
+    "@eslint/js": "10.0.1",
+    "babel-jest": "30.5.2",
+    "babel-loader": "10.1.1",
+    "css-loader": "7.1.5",
+    "eslint": "10.13.0",
+    "globals": "17.13.0",
+    "html-webpack-plugin": "5.6.8",
+    "jest": "30.5.2",
+    "jest-environment-jsdom": "30.5.2",
+    "mini-css-extract-plugin": "2.10.2",
+    "webpack": "5.112.2",
+    "webpack-cli": "7.2.3",
+    "webpack-dev-server": "6.1.0"
+  }
+}
